@@ -330,6 +330,7 @@ PRODUCT_PACKAGES += \
 # Powerhint
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.xml:system/etc/powerhint.xml \
+    $(LOCAL_PATH)/configs/perf/perf-profile0.conf:system/etc/perf/perf-profile0.conf
 
 # Power
 PRODUCT_PACKAGES += \

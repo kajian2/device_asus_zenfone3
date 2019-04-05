@@ -221,6 +221,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     sys.uart.enable=0
 
+# UI
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.use_fifo_ui=1
+
 # USB
 PRODUCT_PROPERTY_OVERRIDES += \
     sys.usb.ffs.max_write=524288 \

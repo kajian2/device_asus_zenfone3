@@ -28,6 +28,9 @@ $(call inherit-product, vendor/asus/zenfone3/zenfone3-vendor.mk)
 # Inherit some common AOSP stuff
 $(call inherit-product, vendor/aosp/common.mk)
 
+# Boot animation resolution
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := aosp_zenfone3
 PRODUCT_DEVICE := zenfone3
 PRODUCT_BRAND := asus

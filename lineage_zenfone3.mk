@@ -25,10 +25,10 @@ $(call inherit-product, device/asus/zenfone3/device.mk)
 # Inherit from zenfone3 vendor
 $(call inherit-product, vendor/asus/zenfone3/zenfone3-vendor.mk)
 
-# Inherit some common XenonHD stuff
-$(call inherit-product, vendor/xenonhd/config/common_full_phone.mk)
+# Inherit some common Lineage stuff
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := xenonhd_zenfone3
+PRODUCT_NAME := lineage_zenfone3
 PRODUCT_DEVICE := zenfone3
 PRODUCT_BRAND := asus
 PRODUCT_MANUFACTURER := asus
@@ -37,5 +37,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-asus
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.name
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.xenonhd.maintainer=lipebs
+

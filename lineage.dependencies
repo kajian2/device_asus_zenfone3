@@ -7,14 +7,14 @@
   },
   {
    "remote": "github",
-   "repository": "lipebs/android_kernel_asus_msm8953",
+   "repository": "hayahsc3/android_kernel_asus_msm8953",
    "target_path": "kernel/asus/msm8953",
    "branch": "lineage-16.0"
   },
   {
    "remote": "github",
-   "repository": "lipebs/proprietary_vendor_asus",
+   "repository": "hayahsc3/android_vendor_asus_zenfone3",
    "target_path": "vendor/asus",
-   "branch": "lineage-16.0"
+   "branch": "Lineage-16"
   }
 ]
